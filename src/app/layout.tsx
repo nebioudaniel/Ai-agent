@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "የጋ ፈትል",
-    description: "Yegafetel we will build your business with Ai agin. ",
+title: "የጋፈትል",
+    description: "በ Ai ኤጀንታችን በመታገስ ድርጅቶውን አንድ ደረጃ ከፈ ያርጉት ፣የጋፈትል ኤአይን እንፈትላለን",
 };
 
 export default function RootLayout({
