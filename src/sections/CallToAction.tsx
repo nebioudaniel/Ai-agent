@@ -16,7 +16,7 @@ export default function CallToAction() {
             { x: "-50%" },
             { duration: 30, ease: "linear", repeat: Infinity }
         );
-    }, []);
+    }, [animate, scope]);
 
     useEffect(() => {
         if (animation.current) {
@@ -42,7 +42,7 @@ export default function CallToAction() {
                             <span className="text-lime-400 text-7xl ">
                                 &#10038;
                             </span>
-                            <span className={twMerge(slowDownAnimation && "text-lime-400")}>Try it for free</span>
+                            <span className={twMerge(slowDownAnimation && "text-lime-400")}>ምን ያስባሉ</span>
                         </div>
                     ))}
                 </motion.div>

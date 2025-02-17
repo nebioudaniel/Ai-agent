@@ -56,7 +56,7 @@ export default function Hero() {
                 { duration: 0.5, ease: "easeInOut" },
             ],
         ]);
-    }, []);
+    }, [leftDesignAnimate, leftDesignScope, leftPointerAnimate, leftPointerScope, rightDesignAnimate, rightDesignScope, rightPointerAnimate, rightPointerScope]);
 
     return (
         <section
@@ -72,11 +72,7 @@ export default function Hero() {
                     className="absolute -left-32 top-16 hidden lg:block"
                     drag
                 >
-                    <Image
-                        draggable={false}
-                        src={designExample1}
-                        alt="design example 1"
-                    />
+                  
                 </motion.div>
                 <motion.div
                     ref={leftPointerScope}
@@ -92,11 +88,7 @@ export default function Hero() {
                     className="absolute -right-64 -top-16 hidden lg:block"
                     drag
                 >
-                    <Image
-                        draggable={false}
-                        src={designExample2}
-                        alt="design example 2"
-                    />
+                   
                 </motion.div>
                 <motion.div
                     ref={rightPointerScope}
@@ -108,15 +100,14 @@ export default function Hero() {
 
                 <div className="flex justify-center">
                     <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-                        ✨ $7.5M eed round raised
+                        ✨  የጋፈትል – ንግድዎን በኤአይ እናዘምን፣ እድገትን እንፈጥር!
                     </div>
                 </div>
                 <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6 ">
-                    Impactful design, created effortlessly
+                ቢዝነሶውን አንድ ደረጃ ከያጋ ጋር ከፍ ያድርጉ ፤፤ 
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
-                    Design tool shouldn't slow you down. Create, prototype, and
-                    test with ease.
+                የጋፈትል – ንግድዎን በ 'AI ' እናዘምናለን ፤ የሚያስደንቅ ኢኖቬሽን፣ አፋጣኝ ውጤት እና ዘላቂ እድገት እንፈጥራለን!
                 </p>
                 <form className="mx-auto flex border border-white/50 rounded-full p-2 mt-8 max-w-lg">
                     <input

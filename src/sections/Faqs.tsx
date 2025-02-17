@@ -8,25 +8,21 @@ import { twMerge } from "tailwind-merge";
 
 const faqs = [
     {
-        question: "How is Layers different from other design tools?",
-        answer: "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.",
+        question: "እኛ ምን አንደኛ ስለአይ አገልግሎታችን እንተለያዩ እንዴት ተለያዩ ነበር?",
+        answer: "እኛ ከታላቅ ተሞክሮ የምርመራ ስልቶች በማንኛውም ተሞክሮ ሳይሆን ፣ ስለአይ አገልግሎታችን አበላቸው ፣ ፍጥነትን እና ቀላልነትን በኩል እንዲያሳምኑ እና በአስፋል አሳብ ሰራን ተለያዩ አንደኛ እኛ ስለአይ አገልግሎታችን አበላቸው በአስተዋውቅ ያሳምኑ"
     },
     {
-        question: "Is there a learning curve?",
-        answer: "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
+        question: "ማንኛውም ተሞክሮ ቀላልነት ተቋማት እንዲደርስ?",
+        answer: "ማንኛውም ተሞክሮ በምንም አብራሪነት እና ስለአይ አገልግሎታችን ተሞክሮ አላለው እና በማንኛውም ትክክል ስለምን እሳምት ተማሩት?"
     },
     {
-        question: "How do you handle version control?",
-        answer: "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+        question: "እንዴት በአይ አገልግሎት እንዲደርስ?",
+        answer: "አይ አገልግሎታችን እንበለታታ እሳምትን ይነጋገሩ እና ባለፈ ምሳሌ ውስጥ በሕገወጥ ተግባር ይቀለም በቅርብ ተማሪችን ማንኛውም"
     },
     {
-        question: "Can I work offline?",
-        answer: "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere.",
-    },
-    {
-        question: "How does Layers handle collaboration?",
-        answer: "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
-    },
+        question: "ምን አማካሪ አይነት አሰማተና?",
+        answer: "ምንም ተለምድ አሰማተናም ማነውችን"
+    }
 ];
 
 export default function Faqs() {
@@ -36,11 +32,11 @@ export default function Faqs() {
         <section className="py-24 ">
             <div className="container">
                 <div className="flex justify-center">
-                    <Tag>Faqs</Tag>
+                    <Tag>ጥያቄ እን መልስ</Tag>
                 </div>
                 <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-                    Questions? We&apos;ve got{" "}
-                    <span className="text-lime-400">answers</span>
+                    የተወሰኑ  ጥያቄዎች{" "}
+                    <span className="text-lime-400">መልስ</span>
                 </h2>
 
                 <div className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">

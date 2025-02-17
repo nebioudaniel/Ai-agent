@@ -11,32 +11,32 @@ const integrations = [
     {
         name: "Figma",
         icon: figmaIcon,
-        description: "Figma is a collaborative interface design tool.",
+        description: "Figma እንደ ማብራሪያ እና ስራዎችን ለማቅረብ በመተንተን መሳሪያ ነው። እኛ በእነዚህ መሳሪያዎች ስራችንን ለመስራት እንተግባለን።",
     },
     {
         name: "Notion",
         icon: notionIcon,
-        description: "Notion is an all-in-one workspace for notes and docs.",
+        description: "Notion ለተመናበሩ ማስታወቂያዎችና ሰነዶች ስለማቅረብ አንደኛ ባለታሪክ ስራ ተቋም ነው። በእኛ ስራዎች ተጠቃሚ ሆኖ ስለማስታወቂያ ተጠቅመን እንተግባለን።",
     },
     {
         name: "Slack",
         icon: slackIcon,
-        description: "Slack is a powerful team communication platform.",
+        description: "Slack በተማሪ ማኅበረሰብ አስተሳሰብ ፕላትፎርም ነው። በስራዎቻችን ውስጥ በእንተግባለን በመሆኑም ማቀላጠፊያ ነው።",
     },
     {
         name: "Relume",
         icon: relumeIcon,
-        description: "Relume is a no-code website builder and design system.",
+        description: "Relume እንደ በሌላ ቀንበር ስምንት የመለኮት ማህበረሰብ ባለንዝቦት እንዲሁም የስራ አቀራረት ውበት ስራ ተቋም ነው። ስለሆነ እኛ በዚህ ማህበረሰብ መሳሪያ ለማቅረብ እንተግባለን።",
     },
     {
         name: "Framer",
         icon: framerIcon,
-        description: "Framer is a professional website prototyping tool.",
+        description: "Framer የስምንት ድምር ቅርንጫፍ ቦታ ባለንዝቦት ነው። በስራዎችን እንተግባለን ይህንን ስራ ተቋም አጠቃላይ ተጠቅመን እንተግባለን።",
     },
     {
         name: "GitHub",
         icon: githubIcon,
-        description: "GitHub is the leading platform for code collaboration.",
+        description: "GitHub እንደ አስተዳደር ላይ መለኮት አስፈላጊ ፕላትፎርም ነው። ስለሆነ በመሳሪያዎች አንደኛ በመሆኑም እኛ ስራችን በዚህ እንተግባለን።",
     },
 ];
 
@@ -48,16 +48,16 @@ export default function Integrations() {
             <div className="container">
                 <div className="grid lg:grid-cols-2 items-center lg:gap-16">
                     <div>
-                        <Tag>Integration</Tag>
+                        <Tag>መሳሪያዎቻችን</Tag>
                         <h2 className="text-6xl font-medium mt-6">
-                            Plays well with{" "}
-                            <span className="text-lime-400 ">others</span>
+                            ስራዎቻችሁን በአሪፍ መልክ እንሰራለን{" "}
+                            <span className="text-lime-400 ">ሊሎች</span>
                         </h2>
 
                         <p className="text-white/50 mt-4 text-lg ">
-                            Layers seamessly connects with your favourite tools
-                            and platforms. It's easy to plug into any workflow
-                            and collaborate platforms.
+                        ከተወዳጅ መሳሪያዎችዎ ጋር በትክክል ይገናኛሉ።
+                            እና መድረኮች. በማንኛውም የስራ ፍሰት ላይ መሰካት ቀላል ነው።
+                            እና መድረኮችን ይተባበሩ።
                         </p>
                     </div>
                     <div>

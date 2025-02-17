@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="container">
                 <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-6">
                     <div>
-                        <Image src={siteLogo} alt="Layers Logo" />
+                       
                     </div>
                     <div>
                         <nav className="flex gap-6">

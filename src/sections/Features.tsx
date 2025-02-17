@@ -12,13 +12,12 @@ import Key from "@/components/Key";
 import { motion } from "framer-motion";
 
 const features = [
-    "Asset Library",
-    "Code Preview",
-    "Flow Mode",
-    "Smart Sync",
-    "Auto Layout",
-    "Fast Search",
-    "Smart Guides",
+  "ኮድ ማሳያ",
+    "የስርዓት ሞድ",
+    "እተኛ ማስተካከያ",
+    "እንቅስቃሴ እንደተግባት አውቶማቲክ",
+    "ፈጣን ፍለጋ",
+    "ማስተላለፊያ  የመሳሰሉት"
 ];
 
 const parentVariants = {
@@ -45,12 +44,12 @@ export default function Features() {
         <section className="py-24 ">
             <div className="container">
                 <div className="flex justify-center">
-                    <Tag>Features</Tag>
+                    <Tag>ስራዎቻችን</Tag>
                 </div>
                 <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl m-auto">
-                    Where power meets{" "}
-                    <span className="text-lime-400">simplicity</span>
-                </h2>
+    እየተሰማሩ ኃይሎች{" "}
+    <span className="text-lime-400">ቀላልነት</span> እንዲገናኙ
+</h2>
                 <motion.div
                     variants={parentVariants}
                     initial="hidden"
@@ -64,8 +63,8 @@ export default function Features() {
                             viewport={{ once: true, amount: 0.2 }}
                         >
                             <FeatureCard
-                                title="Real-time collaboration"
-                                description="Work together seamlessly with conflict-free team editing"
+                                title="ምቹ የ ትብብር ስይስተም እንፈጥራለን"
+                                description="ከግጭት-ነጻ የቡድን አርትዖት ጋር ያለችግር አብረው ይስሩ"
                                 className="md:col-span-2 lg:col-span-1"
                             >
                                 <div className="aspect-video flex items-center justify-center">
@@ -106,19 +105,18 @@ export default function Features() {
                             viewport={{ once: true, amount: 0.2 }}
                         >
                             <FeatureCard
-                                title="Interactive prototyping"
-                                description="Engage your clients with prototypes that react
-                                to user actions"
+                                title="ፈጣን ምህንድስና"
+                                description="እኛ የፕሮምፕት እንግነሪንግ እንሠራለን። በእኛ ስራ ውስጥ ፕሮምፕት እንግነሪንግ ማለት ለመለኪያዎች በግልፅና በእቃ ሁኔታ የተመረተ ፕሮምፕት ማቅረብ ሲሆን፣ እኛም ስራዎቻችንን በመሠረት ፕሮምፕቶችን እንማሩ እና ምርጥ ምላሽ ማግኘት እንችላለን። ይህ እንደ መለኪያ እና አካላት ላይ በፕሮምፕት እንግነሪንግ መስራት በተመሳሳይ ተሞክሮ ስራዎቻችንን ማሻሻል እና ስራ መታመን ይሆናል።"
                                 className="md:col-span-2 lg:col-span-1 group transition duration-500"
                             >
                                 <div className="aspect-video flex items-center justify-center">
-                                    <p className="group-hover:text-white/40 transition duration-500 text-4xl font-extrabold text-white/20 text-center">
-                                        We've achived{" "}
-                                        <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                                            incrideible
-                                        </span>{" "}
-                                        growth this year
-                                    </p>
+                                <p className="group-hover:text-white/40 transition duration-500 text-4xl font-extrabold text-white/20 text-center">
+    በዚህ አመት ታላቅ{" "}
+    <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+        ስራ
+    </span>{" "}
+   ማሳወቅ እኖዳለን ፤፤ 
+</p>
                                 </div>
                             </FeatureCard>
                         </motion.div>
@@ -130,19 +128,19 @@ export default function Features() {
                             viewport={{ once: true, amount: 0.2 }}
                         >
                             <FeatureCard
-                                title="Keyboard quick actions"
-                                description="Powerfull commands to make design quickly"
-                                className="group md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto"
+                      title="የ AI  ፈጣን እንቅስቃሴዎች"
+                      description="ተጠቃሚነትን ለማሻሻል ስራዎችን በAI የተሰራ ትእዛዝ በመጠቀም ፍጥነትን ያሳጣል።"
+                      className="group md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto"
                             >
                                 <div className="aspect-video flex justify-center items-center gap-4">
                                     <Key className="w-28 outline outline-2 outline-transparent group-hover:outline-lime-400 transition-all duration-500 outline-offset-2 group-hover:translate-y-1">
-                                        shift
+                                        አስተማማⶓ
                                     </Key>
                                     <Key className="outline outline-2 outline-transparent group-hover:outline-lime-400 transition-all duration-500 outline-offset-2 group-hover:translate-y-1 delay-150">
-                                        alt
+                                    ቀላል
                                     </Key>
                                     <Key className="outline outline-2 outline-transparent group-hover:outline-lime-400 transition-all duration-500 outline-offset-2 group-hover:translate-y-1 delay-300">
-                                        C
+                                    ምቹ
                                     </Key>
                                 </div>
                             </FeatureCard>
