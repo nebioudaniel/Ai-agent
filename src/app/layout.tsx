@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
 title: "የጋፈትል",
-    description: "በ Ai ኤጀንታችን በመታገስ ድርጅቶውን አንድ ደረጃ ከፈ ያርጉት ፣የጋፈትል ኤአይን እንፈትላለን",
+    description: "በ Ai ኤጀንታችን በመታገስ ድርጅቶውን አንድ ደረጃ ከፍ ያርጉት። የጋፈትል ኤአይን እንፈትላለን፣ በተሳካ ሁኔታ የስራ ሂደቶችን ለማሻሻል፣ ለደንበኞች የበለጠ ዘላቂነትና ፍጥነት ለማቅረብ፣ እና ድርጅታዊ ውጤትን ለመጨመር የተሟሟል። ",
 };
 
 export default function RootLayout({
