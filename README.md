@@ -60,5 +60,5 @@ We welcome contributions! Feel free to open issues and submit pull requests.
 This project is licensed under the MIT License.
 
 ## Contact
-For inquiries, reach out at [your-email@example.com] or visit our website.
+For inquiries, reach out at dnebiou2gmail  or visit our website or in our tg channel t.me/nebadev
 
